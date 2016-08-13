@@ -3,8 +3,8 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
-	public float jumpPower = 2.5f;
-	public float movePower = 2f;
+	public float jumpPower = 5f;
+	public float movePower = 5f;
 
 	public bool canHit = true;
 	public int hitWait = 0;
@@ -32,7 +32,14 @@ public class PlayerMovement : MonoBehaviour {
 	SpriteRenderer sprite;
 	Animator anim;
 
-	public int intGravityState = 0;
+	public bool boolGravityInverted = true;
+
+	/*
+		0 - Zero Gravity
+		1 - Normal Gravity
+		2 - Heavy Gravity
+	*/
+	public int intGravityState = 1;
 
 	private bool onGround = false;
 
@@ -44,14 +51,50 @@ public class PlayerMovement : MonoBehaviour {
 		boxCollider = GetComponent<BoxCollider2D>();
 		//level = controller.getLevel();
 		rig = GetComponent<Rigidbody2D>();
+		rig.gravityScale = GetGravity();
 		rig.freezeRotation = true;
 
 		//sprite = GetComponent<SpriteRenderer>();
 		//anim = GetComponent<Animator>();
 	}
+
+	void InvertGravity()
+	{
+		if (rig.gravityScale > 0)
+		{
+			boolGravityInverted = true;
+			rig.gravityScale = -GetGravity();
+		}
+		else
+		{
+			boolGravityInverted = false;
+			rig.gravityScale = GetGravity();
+		}
+	}
+
+	float GetGravity()
+	{
+		switch (intGravityState)
+		{
+			case 0:
+				movePower = 7;
+				jumpPower = 5;
+				return 0.3f;
+			case 1:
+				movePower = 5;
+				jumpPower = 7;
+				return 1f;
+			case 2:
+				movePower = 2;
+				jumpPower = 5;
+				return 10f;
+		}
+		return 0f;
+	}
 	
 	//FixedUpdate
 	void FixedUpdate() {
+		rig = GetComponent<Rigidbody2D>();
 		/*if (grounded == true && level != 2) {
 			if (Input.GetAxis("Horizontal") > 0) {
 				sprite.sprite = sWalkRight;
@@ -93,6 +136,15 @@ public class PlayerMovement : MonoBehaviour {
 				}
 			}
 		}*/
+	}
+
+	// Update is called once per frame
+	void Update () {
+		if (hitWait > 0) {
+			hitWait -= 1;
+		} else {
+			canHit = true;
+		}
 
 		if (
 			Input.GetKey(KeyCode.LeftArrow)
@@ -117,7 +169,7 @@ public class PlayerMovement : MonoBehaviour {
 			)
 		{
 			onGround = false;
-			rig.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
+			rig.AddForce(new Vector2(0, jumpPower * Mathf.Sign(rig.gravityScale)), ForceMode2D.Impulse);
 		}
 
 		if (
@@ -125,16 +177,13 @@ public class PlayerMovement : MonoBehaviour {
 			)
 		{
 			intGravityState = (intGravityState + 1) % 3;
+			rig.gravityScale = GetGravity() * Mathf.Sign(rig.gravityScale);
 		}
-	}
 
-	// Update is called once per frame
-	void Update () {
-		if (hitWait > 0) {
-			hitWait -= 1;
-		} else {
-			canHit = true;
-		}
+		if (
+			Input.GetKeyDown(KeyCode.Z)
+			)
+			InvertGravity();
 	}
 	//Getters and Setters
 
@@ -152,7 +201,8 @@ public class PlayerMovement : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D coll) {
  		if (
  			coll.gameObject.layer == 8 &&
- 			coll.gameObject.transform.position.y <= transform.position.y
+ 			(((Mathf.Sign(rig.gravityScale) > 0) && coll.gameObject.transform.position.y <= transform.position.y) ||
+ 			((Mathf.Sign(rig.gravityScale) < 0) && coll.gameObject.transform.position.y >= transform.position.y))
  			)
  			onGround = true;
     }
