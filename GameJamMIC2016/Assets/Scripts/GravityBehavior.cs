@@ -3,15 +3,19 @@ using System.Collections;
 
 public class GravityBehavior : MonoBehaviour {
 
+	/*
+	private GameObject[] sceneObjects;
+	private List<GameObject> movableObjects;
+
 	// Use this for initialization
 	void Start ()
 	{
-		GameObject[] sceneObjects = GameObject.FindObjectsOfType(typeof (GameObject));
-		List<GameObject> movableObjects =  new List<GameObject>;
+		sceneObjects = GameObject.FindObjectsOfType(typeof (GameObject));
+		movableObjects =  new List<GameObject>();
 
 		foreach(object obj in sceneObjects)
 		{
-			if(obj.GetComponen<MovableComponent> != null)
+			if(obj.GetComponen<MovableComponent>() != null)
 			{
 
 				movableObjects.Add(obj);
@@ -28,5 +32,7 @@ public class GravityBehavior : MonoBehaviour {
 			{
 				obj.GetComponen<MovableComponent>.applyGravity();
 			}
+		}
 	}
+	*/
 }
