@@ -3,8 +3,6 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
-	public int level;
-
 	public float jumpPower = 2.5f;
 	public float movePower = 2f;
 
@@ -34,28 +32,27 @@ public class PlayerMovement : MonoBehaviour {
 	SpriteRenderer sprite;
 	Animator anim;
 
-	float oPosX, oPosY; 
+	public int intGravityState = 0;
+
+	private bool onGround = false;
+
+	public int life = 100;
 
 	// Use this for initialization
 	void Start () {
 		life = 3;
 		boxCollider = GetComponent<BoxCollider2D>();
 		//level = controller.getLevel();
-		isAlive = true;
-		grounded = false;
 		rig = GetComponent<Rigidbody2D>();
 		rig.freezeRotation = true;
 
-		sprite = GetComponent<SpriteRenderer>();
-		anim = GetComponent<Animator>();
-
+		//sprite = GetComponent<SpriteRenderer>();
+		//anim = GetComponent<Animator>();
 	}
 	
 	//FixedUpdate
 	void FixedUpdate() {
-		//Horizontal Movement
-		moveX = Input.GetAxis("Horizontal") * movePower * Time.deltaTime;
-		if (grounded == true && level != 2) {
+		/*if (grounded == true && level != 2) {
 			if (Input.GetAxis("Horizontal") > 0) {
 				sprite.sprite = sWalkRight;
 				anim.runtimeAnimatorController = aWalkRight;
@@ -95,11 +92,43 @@ public class PlayerMovement : MonoBehaviour {
 					}
 				}
 			}
+		}*/
+
+		if (
+			Input.GetKey(KeyCode.LeftArrow)
+			)
+		{
+			rig.velocity = new Vector2(-5f, rig.velocity.y);
+		}
+		else if (
+			Input.GetKey(KeyCode.RightArrow)
+			)
+		{
+			rig.velocity = new Vector2(5f, rig.velocity.y);
+		}
+		else
+		{
+			rig.velocity = new Vector2(0, rig.velocity.y);
 		}
 
+		if (
+			Input.GetKeyDown(KeyCode.UpArrow) &&
+			onGround
+			)
+		{
+			onGround = false;
+			if (intGravityState == 0)
+				rig.AddForce(new Vector2(0, 8), ForceMode2D.Impulse);
+			if (intGravityState == 1)
+				rig.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
+		}
 
-		Vector3 moveVector = new Vector3(moveX, 0, 0);
-		transform.Translate(moveVector);
+		if (
+			Input.GetKeyDown(KeyCode.Space)
+			)
+		{
+			intGravityState = (intGravityState + 1) % 3;
+		}
 	}
 
 	// Update is called once per frame
@@ -124,7 +153,11 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D coll) {
- 
+ 		if (
+ 			coll.gameObject.layer == 8 &&
+ 			coll.gameObject.transform.position.y <= transform.position.y
+ 			)
+ 			onGround = true;
     }
 
     void OnCollisionExit2D(Collision2D coll) {
