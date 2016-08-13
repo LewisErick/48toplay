@@ -4,7 +4,10 @@ using System.Collections;
 public class Asteroid : MonoBehaviour {
 
     public const string PLAYER_TAG = "Player";
-    public const string AIRSHIP_TAG = "Airship";
+    public const string BLACKHOLE_TAG = "BlackHole"; //BlackHole & Boss
+    public const string EXPLOSION_TAG = "Explosion";
+
+    public GameObject explosion;
 
     public float speed = 10;
 
@@ -25,13 +28,18 @@ public class Asteroid : MonoBehaviour {
         MoveTowardsPlayer(diff);
     }
 
-    void OnCollisionEnter2D(Collision2D coll)
-    {  
-        if (coll.gameObject.CompareTag(AIRSHIP_TAG))
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag(PLAYER_TAG) || other.CompareTag(BLACKHOLE_TAG) || other.CompareTag(EXPLOSION_TAG))
         {
-            Destroy(this.gameObject);
-        }    
+            return;
+        }
+        Destroy(this.gameObject);
+        GameObject explosionGO = (GameObject)Instantiate(explosion, other.transform.position, other.transform.rotation);
+        Destroy(explosionGO, 1f);
     }
+
+
 
     void MoveTowardsPlayer(Vector2 _diff)
     {
