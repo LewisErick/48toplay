@@ -1,17 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 
 public class GravityBehavior : MonoBehaviour {
+	public List<GameObject> movableObjects;
+	public Object[] sceneObjects;
 
 	// Use this for initialization
 	void Start ()
 	{
-		GameObject[] sceneObjects = GameObject.FindObjectsOfType(typeof (GameObject));
-		List<GameObject> movableObjects =  new List<GameObject>;
+		sceneObjects = GameObject.FindObjectsOfType(typeof (GameObject));
+		movableObjects =  new List<GameObject>();
 
-		foreach(object obj in sceneObjects)
+		foreach(GameObject obj in sceneObjects)
 		{
-			if(obj.GetComponen<MovableComponent> != null)
+			if(obj.GetComponent<MovableComponent>() != null)
 			{
 
 				movableObjects.Add(obj);
@@ -24,9 +28,10 @@ public class GravityBehavior : MonoBehaviour {
 	{
 		if(Input.GetKeyDown("space"))
 		{
-			foreach (object obj in movableObjects)
+			foreach (GameObject obj in movableObjects)
 			{
-				obj.GetComponen<MovableComponent>.applyGravity();
+				obj.GetComponent<MovableComponent>().applyGravity();
 			}
 	}
+}
 }
