@@ -98,13 +98,13 @@ public class PlayerMovement : MonoBehaviour {
 			Input.GetKey(KeyCode.LeftArrow)
 			)
 		{
-			rig.velocity = new Vector2(-5f, rig.velocity.y);
+			rig.velocity = new Vector2(-movePower, rig.velocity.y);
 		}
 		else if (
 			Input.GetKey(KeyCode.RightArrow)
 			)
 		{
-			rig.velocity = new Vector2(5f, rig.velocity.y);
+			rig.velocity = new Vector2(movePower, rig.velocity.y);
 		}
 		else
 		{
@@ -117,10 +117,7 @@ public class PlayerMovement : MonoBehaviour {
 			)
 		{
 			onGround = false;
-			if (intGravityState == 0)
-				rig.AddForce(new Vector2(0, 8), ForceMode2D.Impulse);
-			if (intGravityState == 1)
-				rig.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
+			rig.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
 		}
 
 		if (
