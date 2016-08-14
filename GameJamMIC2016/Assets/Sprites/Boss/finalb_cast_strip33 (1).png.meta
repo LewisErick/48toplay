@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: edc94fdcf8fb18043ad41da1c9d912bb
+timeCreated: 1471149885
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: finalb_cast_strip33 (1)_1
+    21300002: finalb_cast_strip33 (1)_3
+    21300004: finalb_cast_strip33 (1)_5
+    21300006: finalb_cast_strip33 (1)_7
+    21300008: finalb_cast_strip33 (1)_9
+    21300010: finalb_cast_strip33 (1)_11
+    21300012: finalb_cast_strip33 (1)_13
+    21300014: finalb_cast_strip33 (1)_15
+    21300016: finalb_cast_strip33 (1)_17
+    21300018: finalb_cast_strip33 (1)_19
+    21300020: finalb_cast_strip33 (1)_21
+    21300022: finalb_cast_strip33 (1)_23
+    21300024: finalb_cast_strip33 (1)_25
+    21300026: finalb_cast_strip33 (1)_27
+    21300028: finalb_cast_strip33 (1)_28
+    21300030: finalb_cast_strip33 (1)_29
+    21300032: finalb_cast_strip33 (1)_30
+    21300034: finalb_cast_strip33 (1)_31
+    21300036: finalb_cast_strip33 (1)_32
+    21300038: finalb_cast_strip33 (1)_33
+    21300040: finalb_cast_strip33 (1)_34
+    21300042: finalb_cast_strip33 (1)_35
+    21300044: finalb_cast_strip33 (1)_36
+    21300046: finalb_cast_strip33 (1)_38
+    21300048: finalb_cast_strip33 (1)_39
+    21300050: finalb_cast_strip33 (1)_40
+    21300052: finalb_cast_strip33 (1)_42
+    21300054: finalb_cast_strip33 (1)_44
+    21300056: finalb_cast_strip33 (1)_46
+    21300058: finalb_cast_strip33 (1)_48
+    21300060: finalb_cast_strip33 (1)_50
+    21300062: finalb_cast_strip33 (1)_52
+    21300064: finalb_cast_strip33 (1)_54
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 723
+        width: 65
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5912919, y: 0.577304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 723
+        width: 67
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57494116, y: 0.57793194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 724
+        width: 66
+        height: 122
+      alignment: 9
+      pivot: {x: 0.58299303, y: 0.57857126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 723
+        width: 66
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5691607, y: 0.58535445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 724
+        width: 64
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5570574, y: 0.57607675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 724
+        width: 61
+        height: 119
+      alignment: 9
+      pivot: {x: 0.55238014, y: 0.56137264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 64
+        height: 120
+      alignment: 9
+      pivot: {x: 0.57909465, y: 0.57286274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 575
+        width: 65
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5778778, y: 0.57482713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 576
+        width: 67
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5892899, y: 0.5792126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 575
+        width: 66
+        height: 123
+      alignment: 9
+      pivot: {x: 0.58366996, y: 0.5823096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_21
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 576
+        width: 67
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5824221, y: 0.5792126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_23
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 577
+        width: 64
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5862856, y: 0.57606393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 433
+        width: 63
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5803501, y: 0.5662981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 433
+        width: 64
+        height: 117
+      alignment: 9
+      pivot: {x: 0.59347534, y: 0.5707979}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_28
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 433
+        width: 62
+        height: 118
+      alignment: 9
+      pivot: {x: 0.58164585, y: 0.57019794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_29
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 433
+        width: 48
+        height: 120
+      alignment: 9
+      pivot: {x: 0.46165085, y: 0.57669777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_30
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 432
+        width: 48
+        height: 121
+      alignment: 9
+      pivot: {x: 0.45206323, y: 0.5836704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_31
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 433
+        width: 45
+        height: 124
+      alignment: 9
+      pivot: {x: 0.46931967, y: 0.56309015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_32
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 289
+        width: 47
+        height: 128
+      alignment: 9
+      pivot: {x: 0.47062635, y: 0.54314256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_33
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 289
+        width: 47
+        height: 126
+      alignment: 9
+      pivot: {x: 0.49020872, y: 0.54382735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_34
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 289
+        width: 46
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4699873, y: 0.5294519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_35
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 289
+        width: 47
+        height: 126
+      alignment: 9
+      pivot: {x: 0.47062585, y: 0.5401752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_36
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 288
+        width: 58
+        height: 125
+      alignment: 9
+      pivot: {x: 0.3960992, y: 0.55256593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_38
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 289
+        width: 74
+        height: 97
+      alignment: 9
+      pivot: {x: 0.29478166, y: 0.70874465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_39
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 144
+        width: 79
+        height: 98
+      alignment: 9
+      pivot: {x: 0.7752544, y: 0.72704875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_40
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 145
+        width: 80
+        height: 97
+      alignment: 9
+      pivot: {x: 0.8034199, y: 0.7293893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 145
+        width: 84
+        height: 97
+      alignment: 9
+      pivot: {x: 0.7709104, y: 0.7293893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_44
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 145
+        width: 86
+        height: 95
+      alignment: 9
+      pivot: {x: 0.7469695, y: 0.7129258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_46
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 145
+        width: 86
+        height: 94
+      alignment: 9
+      pivot: {x: 0.7528495, y: 0.7151911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_48
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 145
+        width: 87
+        height: 95
+      alignment: 9
+      pivot: {x: 0.7441308, y: 0.718249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_50
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 81
+        height: 97
+      alignment: 9
+      pivot: {x: 0.79343086, y: 0.7189629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_52
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 82
+        height: 98
+      alignment: 9
+      pivot: {x: 0.78985226, y: 0.72188866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: finalb_cast_strip33 (1)_54
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1
+        width: 82
+        height: 97
+      alignment: 9
+      pivot: {x: 0.78985226, y: 0.7189629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
