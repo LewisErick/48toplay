@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: bf585e13003394c4abb417825aaf2c93
+timeCreated: 1471186683
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ship_0
+    21300002: ship_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ship_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 30}
+        - {x: -3, y: 25}
+        - {x: -17, y: 16}
+        - {x: -23, y: 9}
+        - {x: -59, y: 7}
+        - {x: -63, y: 6}
+        - {x: -63, y: -2}
+        - {x: -41, y: -29}
+        - {x: 67, y: -29}
+        - {x: 68, y: -26}
+        - {x: 68, y: 6}
+        - {x: 32, y: 30}
+    - name: ship_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 30}
+        - {x: -2, y: 25}
+        - {x: -16, y: 16}
+        - {x: -22, y: 9}
+        - {x: -58, y: 7}
+        - {x: -62, y: 6}
+        - {x: -62, y: -2}
+        - {x: -40, y: -29}
+        - {x: 68, y: -29}
+        - {x: 69, y: -26}
+        - {x: 69, y: 6}
+        - {x: 33, y: 30}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

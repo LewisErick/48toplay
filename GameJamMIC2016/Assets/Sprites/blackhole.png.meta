@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 8fb98c1b9193e4340b68bcf423df0cf7
+timeCreated: 1471186630
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blackhole_0
+    21300002: blackhole_1
+    21300004: blackhole_2
+    21300006: blackhole_3
+    21300008: blackhole_4
+    21300010: blackhole_5
+    21300012: blackhole_6
+    21300014: blackhole_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: blackhole_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 67}
+        - {x: -73, y: 30}
+        - {x: -73, y: -25}
+        - {x: -50, y: -75}
+        - {x: 28, y: -75}
+        - {x: 72, y: -55}
+        - {x: 72, y: 37}
+        - {x: 37, y: 67}
+    - name: blackhole_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 71}
+        - {x: -70, y: 38}
+        - {x: -70, y: -30}
+        - {x: -64, y: -59}
+        - {x: -36, y: -74}
+        - {x: 52, y: -74}
+        - {x: 70, y: -26}
+        - {x: 70, y: 52}
+        - {x: 61, y: 71}
+    - name: blackhole_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 72}
+        - {x: -67, y: 48}
+        - {x: -67, y: -47}
+        - {x: -39, y: -73}
+        - {x: 37, y: -73}
+        - {x: 75, y: -39}
+        - {x: 75, y: 54}
+        - {x: 40, y: 72}
+    - name: blackhole_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 70}
+        - {x: -71, y: 35}
+        - {x: -71, y: -54}
+        - {x: -57, y: -70}
+        - {x: 51, y: -70}
+        - {x: 74, y: -30}
+        - {x: 74, y: 39}
+        - {x: 46, y: 70}
+    - name: blackhole_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 75}
+        - {x: -56, y: 64}
+        - {x: -71, y: 47}
+        - {x: -71, y: -23}
+        - {x: -55, y: -67}
+        - {x: 42, y: -67}
+        - {x: 73, y: -49}
+        - {x: 73, y: 41}
+        - {x: 59, y: 75}
+    - name: blackhole_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 74}
+        - {x: -70, y: 48}
+        - {x: -70, y: -40}
+        - {x: -43, y: -71}
+        - {x: 41, y: -71}
+        - {x: 70, y: -43}
+        - {x: 70, y: 64}
+        - {x: 29, y: 74}
+    - name: blackhole_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 73}
+        - {x: -36, y: 73}
+        - {x: -75, y: 43}
+        - {x: -75, y: -34}
+        - {x: -34, y: -72}
+        - {x: 67, y: -72}
+        - {x: 67, y: 59}
+        - {x: 50, y: 66}
+    - name: blackhole_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 69}
+        - {x: -74, y: 59}
+        - {x: -74, y: -64}
+        - {x: -50, y: -70}
+        - {x: 59, y: -70}
+        - {x: 71, y: -44}
+        - {x: 71, y: 44}
+        - {x: 32, y: 69}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

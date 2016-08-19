@@ -45,10 +45,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Asteroid.cs" />
+     <Compile Include="Assets\BlackHole.cs" />
+     <Compile Include="Assets\BlackHoleCutsceneHandler.cs" />
+     <Compile Include="Assets\BossController.cs" />
+     <Compile Include="Assets\BossMotor.cs" />
+     <Compile Include="Assets\BossWeakPoint.cs" />
+     <Compile Include="Assets\Box.cs" />
+     <Compile Include="Assets\EndingSceneHandler.cs" />
+     <Compile Include="Assets\GravityIndicatorHandler.cs" />
+     <Compile Include="Assets\PlayerCollisions.cs" />
+     <Compile Include="Assets\ScenesManager.cs" />
      <Compile Include="Assets\Scripts\BulletBehavior.cs" />
+     <Compile Include="Assets\Scripts\ButtonBehavior.cs" />
+     <Compile Include="Assets\Scripts\ButtonBehavior2.cs" />
+     <Compile Include="Assets\Scripts\CameraHandler1.cs" />
+     <Compile Include="Assets\Scripts\CutsceneManagers\IntroSceneHandler.cs" />
+     <Compile Include="Assets\Scripts\DoorInputHandler.cs" />
+     <Compile Include="Assets\Scripts\DoorlightHandler.cs" />
      <Compile Include="Assets\Scripts\EnemyBehavior.cs" />
      <Compile Include="Assets\Scripts\GravityBehavior.cs" />
+     <Compile Include="Assets\Scripts\HorPlatHandler.cs" />
+     <Compile Include="Assets\Scripts\MovableComponent.cs" />
+     <Compile Include="Assets\Scripts\MusicHandler.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\SpikesHandler.cs" />
+     <Compile Include="Assets\Scripts\TextBoxHandler.cs" />
+     <Compile Include="Assets\Scripts\TitleHandler.cs" />
+     <Compile Include="Assets\SoundDirectorHandler.cs" />
+     <Compile Include="Assets\SoundManagerHandler.cs" />
+     <Compile Include="Assets\SpawnBlock.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
